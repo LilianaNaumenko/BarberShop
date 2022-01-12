@@ -1,0 +1,44 @@
+// о нас
+.section-about-us {
+  display: flex;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.list-item-about-us {
+  display: flex;
+  padding-left: 0;
+}
+
+.list-about-us {
+  list-style-type: none;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 64px;
+  }
+}
+
+.about-us-trip {
+  height: 1px;
+  width: 60px;
+  background-color: $basic-black-color;
+}
+.title-about-us {
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.17;
+}
+
+.suptitle-ubout-us {
+  font-size: 18px;
+  line-height: 1.7;
+  color: $secondary-black;
+}
+
+.description-about-us {
+  font-size: 14px;
+  line-height: 1.9;
+  color: $secondary-black;
+}

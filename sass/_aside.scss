@@ -1,0 +1,26 @@
+.list-aside {
+  list-style-type: none;
+}
+
+.aside-trip {
+  height: 1px;
+  width: 60px;
+
+  background-color: $basic-black-color;
+}
+
+.link-aside {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+
+  color: $basic-black-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $orange;
+  }
+}

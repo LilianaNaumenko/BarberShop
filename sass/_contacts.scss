@@ -1,0 +1,70 @@
+.title-contacts {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+
+  // color: $basic-white-color;
+}
+
+.list-contacts {
+  list-style-type: none;
+}
+
+.address-contacts {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7;
+
+  color: $secondary-gray;
+}
+
+.link-tel-contacts {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7;
+
+  color: $secondary-gray;
+  text-decoration: none;
+}
+.link-mail-contacts {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7;
+
+  color: $secondary-gray;
+}
+
+.contacts-trip {
+  height: 1px;
+  width: 60px;
+
+  background-color: rgba(157, 164, 189, 0.4);
+}
+
+.primary-text-contacts {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+
+  //   color: $basic-white-color;
+}
+
+.secondary-text-contacts {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7;
+
+  color: $secondary-gray;
+}

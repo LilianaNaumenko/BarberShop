@@ -1,0 +1,26 @@
+.gallery-trip {
+  height: 1px;
+  width: 60px;
+
+  background-color: $basic-black-color;
+}
+
+.title-gallery {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+
+  color: $basic-black-color;
+}
+
+.list-item-gallery {
+  display: flex;
+}
+
+.list-gallery {
+  list-style-type: none;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
