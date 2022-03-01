@@ -1,6 +1,19 @@
+.section-success {
+  padding-top: 121px;
+  padding-bottom: 130px;
+}
+.container-success {
+  display: flex;
+}
+.container-trip-text {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
 .success-trip {
   height: 1px;
   width: 60px;
+  margin-right: 20px;
 
   background: $basic-black-color;
 }
@@ -9,6 +22,7 @@
   font-weight: 600;
   font-size: 11px;
   line-height: 1.4;
+  margin: 0;
 
   color: $basic-black-color;
 }
@@ -16,6 +30,8 @@
 .secondary-text-success {
   font-size: 18px;
   line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 0;
 
   color: $secondary-black;
 }
@@ -26,6 +42,57 @@
   font-weight: 700;
   font-size: 42px;
   line-height: 1.17;
+  margin-bottom: 0;
+  margin-top: 20px;
 
+  color: $basic-black-color;
+}
+
+// блоки успеха
+.general-container-achievement {
+  display: flex;
+  margin-right: 130px;
+  margin-left: 100px;
+}
+.container-achievement-one {
+  margin-right: 30px;
+}
+.container-achievement-two {
+  margin-top: 35px;
+}
+.container-achievement {
+  width: 170px;
+  height: 133px;
+  background: #f7f7f7;
+  padding: 20px 24px;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+.container-primary-plus-text {
+  display: flex;
+  justify-content: center;
+}
+.primary-text-achievement {
+  margin: 0;
+
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: $basic-black-color;
+}
+.plus-text-achievement {
+  margin: 0;
+  color: $orange;
+}
+.secondary-text-achievement {
+  margin: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: center;
   color: $basic-black-color;
 }

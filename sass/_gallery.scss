@@ -1,20 +1,36 @@
+.section-gallery {
+  padding-bottom: 130px;
+  padding-top: 130px;
+}
+.gallery-title-wrapper {
+  display: flex;
+  margin: 0;
+  margin-bottom: 44px;
+  align-items: center;
+}
 .gallery-trip {
   height: 1px;
   width: 60px;
+  margin-right: 20px;
 
   background-color: $basic-black-color;
 }
-
+.img-gallery {
+  display: block;
+}
 .title-gallery {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.4;
+
+  margin: 0;
 
   color: $basic-black-color;
 }
 
 .list-item-gallery {
   display: flex;
+  padding: 0;
 }
 
 .list-gallery {

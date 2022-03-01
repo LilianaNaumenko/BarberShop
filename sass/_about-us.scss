@@ -1,6 +1,12 @@
 // о нас
+.about-us-general-container {
+  display: flex;
+  align-items: center;
+}
+
 .section-about-us {
   display: flex;
+
   padding-top: 130px;
   padding-bottom: 130px;
 }
@@ -17,11 +23,20 @@
     margin-right: 64px;
   }
 }
-
+.about-us-title-wrapper {
+  display: flex;
+  align-items: center;
+}
 .about-us-trip {
   height: 1px;
   width: 60px;
+
+  margin-right: 20px;
   background-color: $basic-black-color;
+}
+.text-about-us {
+  margin: 0;
+  letter-spacing: 0.1em;
 }
 .title-about-us {
   font-family: Raleway;
@@ -29,16 +44,29 @@
   font-weight: 600;
   font-size: 42px;
   line-height: 1.17;
-}
+  letter-spacing: 0.05em;
 
+  margin-bottom: 0;
+  margin-top: 27px;
+}
+.img-about-us {
+  display: block;
+  height: 463px;
+}
 .suptitle-ubout-us {
+  margin-bottom: 0;
+  margin-top: 20px;
   font-size: 18px;
   line-height: 1.7;
+  letter-spacing: 0.02em;
   color: $secondary-black;
 }
 
 .description-about-us {
+  margin-bottom: 0;
+  margin-top: 20px;
   font-size: 14px;
   line-height: 1.9;
+  text-align: justify;
   color: $secondary-black;
 }

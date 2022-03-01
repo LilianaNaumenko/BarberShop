@@ -1,13 +1,23 @@
 // навигация
 header {
-  background-image: url(../images/background-header.png);
-  max-width: 1125px;
+  display: flex;
+  width: 1280px;
   height: 680px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-content {
+  width: 1125px;
+  padding-left: 55px;
+  padding-right: 55px;
+  background-image: url(../images/background-header.png);
 }
 .list-item-navigation {
   display: flex;
   margin-top: 0;
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .list-navigation {
@@ -21,6 +31,7 @@ header {
 .link-navigation {
   font-size: 12px;
   line-height: 1.3;
+
   text-decoration: none;
   color: $basic-white-color;
 
@@ -34,13 +45,23 @@ header {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.3;
+  letter-spacing: 0.1em;
+
+  margin-right: 40px;
+
   text-decoration: none;
   color: $basic-white-color;
-  margin-right: 40px;
+
+  &:hover,
+  &:focus {
+    color: $orange;
+  }
 }
 
 // о нас в хедере
-
+.container-description {
+  padding-left: 40px;
+}
 .description-trip {
   height: 1px;
   width: 60px;
@@ -48,17 +69,27 @@ header {
 }
 
 .list-item-description {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+
   margin-bottom: 0;
   margin-top: 204px;
 }
 .list-description {
   list-style-type: none;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
 }
 
 .text-description {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.4;
+  margin: 0;
+  letter-spacing: 00.1em;
 
   color: rgba(157, 164, 189, 0.6);
 }
@@ -69,8 +100,11 @@ header {
   font-weight: 700;
   font-size: 72px;
   line-height: 1.2;
+
   margin-bottom: 0;
   margin-top: 27px;
+
+  color: $basic-white-color;
 }
 
 .text-barber-shop {
@@ -79,13 +113,13 @@ header {
   margin-bottom: 0;
   margin-top: 20px;
   color: $secondary-gray;
+  letter-spacing: 0.02em;
 }
 
 // кнопки
 .container-button-navigation {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 0;
   margin-top: 142px;
 }
 
@@ -93,30 +127,65 @@ header {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.4;
+
   margin-right: 20px;
+  padding-right: 22px;
+  padding-left: 0;
+
   color: rgba(157, 164, 189, 0.6);
   background-color: transparent;
   text-align: start;
-  padding-right: 22px;
-  padding-left: 0;
+
   border: none;
   border-bottom: 1px solid rgba(157, 164, 189, 0.6);
+  cursor: pointer;
 }
 
 .button-forward {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.4;
+
+  padding-right: 0;
+  padding-left: 22px;
+
   color: $basic-white-color;
   background-color: transparent;
   text-align: end;
-  padding-right: 0;
-  padding-left: 22px;
   border: none;
   border-bottom: 1px solid $basic-white-color;
+  cursor: pointer;
 }
 
 .container-header-navigation-phone {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+// полоски
+
+.container-title-barber-shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+// .container-barber-shop-trip {
+// }
+.barber-shop-trip-one {
+  width: 18px;
+  height: 2px;
+  margin-bottom: 12px;
+  background-color: $basic-white-color;
+}
+.barber-shop-trip-two {
+  width: 8px;
+  height: 2px;
+
+  background-color: $secondary-gray;
+
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
 }

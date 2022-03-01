@@ -8,17 +8,45 @@
 @import "./online-appointment";
 @import "./contacts";
 @import "./aside";
+@import "./footer";
 
-body {
-  font-family: Open Sans;
-  font-style: 400;
-  font-weight: 400;
+html {
+  box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: 400;
+  font-weight: 400;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+.container {
+  width: 1280px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
 // кнопики
 .primary-button {
   padding: 12px 20px;
-
   font-weight: 600;
   font-size: 12px;
   line-height: 1.3;
@@ -27,6 +55,9 @@ body {
   border: 1px solid #ff6c00;
   border-radius: 25px;
   background-color: transparent;
+  letter-spacing: 0.09em;
+  cursor: pointer;
+
   &:hover,
   &:focus {
     background-color: $orange;
@@ -35,6 +66,7 @@ body {
 
 .secondary-button {
   padding: 12px 20px;
+  margin-top: 40px;
 
   color: $basic-black-color;
   font-weight: 600;
@@ -44,6 +76,7 @@ body {
   border: 1px solid #ff6c00;
   border-radius: 25px;
   background-color: transparent;
+  cursor: pointer;
 
   &:hover,
   &:focus {

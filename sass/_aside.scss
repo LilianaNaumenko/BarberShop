@@ -1,5 +1,35 @@
+aside {
+  padding-top: 370px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+.container-logo {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 283px;
+}
+.list-item-aside {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 155px;
+
+  transform: rotate(-90deg);
+}
+
 .list-aside {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
   list-style-type: none;
+  letter-spacing: 0.2em;
+
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
 }
 
 .aside-trip {
